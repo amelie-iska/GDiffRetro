@@ -1,2 +1,2 @@
 # GDiffRetro
-GDiffRetro: Retrosynthesis Prediction with Dual Graph Enhanced\\ Molecular Representation and Diffusion Generation
+GDiffRetro: Retrosynthesis Prediction with Dual Graph Enhanced Molecular Representation and Diffusion Generation
