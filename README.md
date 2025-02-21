@@ -10,3 +10,19 @@ Retrosynthesis prediction focuses on identifying reactants capable of synthesizi
 ![Framework](fig/framework.png)
 
 # Code Coming Soon ...
+
+
+## Acknowledgment of Open-Source Code Contributions  
+
+  The code is based on the open-source repositories: [TorchDrug](https://github.com/DeepGraphLearning/torchdrug), [DeLinker](https://github.com/oxpig/DeLinker), and [DiffLinker](https://github.com/igashov/DiffLinker), many thanks to the authors! 
+
+You are welcome to cite our paper:
+```
+@inproceedings{hcmkr2024,
+  author = {Sun, Shengyin and Chen, Ma},
+  title = {Hyperbolic Contrastive Learning with Model-Augmentation for Knowledge-Aware Recommendation},
+  year = {2024},
+  booktitle = {Machine Learning and Knowledge Discovery in Databases},
+  pages = {199–217}
+}
+```
