@@ -18,11 +18,10 @@ Retrosynthesis prediction focuses on identifying reactants capable of synthesizi
 
 You are welcome to cite our paper:
 ```
-@inproceedings{hcmkr2024,
-  author = {Sun, Shengyin and Chen, Ma},
-  title = {Hyperbolic Contrastive Learning with Model-Augmentation for Knowledge-Aware Recommendation},
-  year = {2024},
-  booktitle = {Machine Learning and Knowledge Discovery in Databases},
-  pages = {199–217}
+@inproceedings{SunYu25,
+  title={GDiffRetro: Retrosynthesis Prediction with Dual Graph Enhanced Molecular Representation and Diffusion Generation},
+  author={Sun, Shengyin and Yu, Wenhao and Ren, Yuxiang and Du, Weitao and Liu, Liwei and Zhang, Xuecang and Hu, Ying and Ma, Chen},
+  booktitle={arXiv:2501.08001},
+  year={2025}
 }
 ```
