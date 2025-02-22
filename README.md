@@ -27,6 +27,7 @@ wandb
 # Run
 ## Stage 0: Data Process
 ```shell
+cd code/known_class/  # cd code/unknown_class/  
 cd stage1/data_prcocess/generate_SDF/
 python main.py
 cd stage1/data_prcocess/get_dataset_1st_stage/
