@@ -9,7 +9,6 @@ Retrosynthesis prediction focuses on identifying reactants capable of synthesizi
 
 ![Framework](fig/framework.png)
 
-# Code for Retrosynthetic Prediction with Known Reaction Classes 
 # Requirement
 The conda environment
 ```shell
@@ -26,7 +25,7 @@ wandb
 > Note that we use a modified torchdrug in `./stage1` so you needn't install it with `pip install torchdrug`.
 > More details about the environment are provided in ./requirement.txt.
 # Run
-## Stage 0: Data Process (We provide the dataset and checkpoints in [here](https://github.com/DeepGraphLearning/torchdrug).)
+## Stage 0: Data Process
 ```shell
 cd stage1/data_prcocess/generate_SDF/
 python main.py
@@ -38,20 +37,16 @@ python main.py
 cd stage1 
 python train.py
 python stage1_to_result_dict.py --sample_times 300 --checkpoint model/reaction_center_model_w_class.pth
-```
-Then you will get a `reaction_center_model_w_class_300.pkl` in `./stage1/result`
-copy it to the evaluate dir
-```shell
-cp ./result/reaction_center_model_w_class_300.pkl ../evaluate/stage1_dict
-cd ../
+# python stage1_to_result_dict.py --sample_times 300 --checkpoint model/reaction_center_model_wo_class.pth
 ```
 ## Stage 2: Synthon Completion
 ```shell
+cd stage2  
 python train_gdiffretro.py
 python train_size_gnn.py
 bash run_get_results.sh
 ```
-
+> We provide the dataset and checkpoints [here](https://github.com/DeepGraphLearning/torchdrug).
 
 ## Acknowledgment of Open-Source Code Contributions  
 
