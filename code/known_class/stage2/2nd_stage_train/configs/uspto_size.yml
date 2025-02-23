@@ -1,8 +1,0 @@
-logs: logs
-checkpoints: models
-data: './dataset'
-device: cuda:0
-normalization: batch_norm
-train_data_prefix: uspto_final_train
-val_data_prefix: uspto_final_eval
-test_data_prefix: uspto_final_test
