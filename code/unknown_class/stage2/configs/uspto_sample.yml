@@ -1,0 +1,6 @@
+checkpoint: ./models/latent/latent_epoch=2999.ckpt
+samples: sample
+data: ./dataset_save_test
+prefix: uspto_final_test
+n_samples: 300
+device: cuda:6
