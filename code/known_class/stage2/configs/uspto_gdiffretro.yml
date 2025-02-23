@@ -1,0 +1,38 @@
+exp_name: 'latent'
+data: './dataset'
+train_data_prefix: uspto_final_train
+val_data_prefix: uspto_final_eval
+checkpoints: models
+logs: logs
+device: gpu
+torch_device: 'cuda:0'
+log_iterations: null
+wandb_entity: null
+wandb_mode: 'offline'
+enable_progress_bar: True
+num_worker: 16
+model: egnn_dynamics
+lr: 2.0e-4
+batch_size: 64
+n_layers: 8
+n_epochs: 3000
+test_epochs: 10000
+n_stability_samples: 10 #idk what  is that
+nf: 128
+activation: silu
+attention: False
+condition_time: True
+tanh: False
+norm_constant: 0.000001
+inv_sublayers: 2
+include_charges: False #Note: False is better
+diffusion_loss_type: l2
+data_augmentation: False
+center_of_mass: fragments #anchors
+remove_anchors_context: False
+sin_embedding: False
+normalization_factor: 100
+normalize_factors: [1, 4, 10]
+aggregation_method: 'sum'
+normalization: batch_norm
+inpainting: False
