@@ -47,7 +47,7 @@ python train_gdiffretro.py
 python train_size_gnn.py
 bash run_get_results.sh
 ```
-> We provide the dataset and checkpoints [here](https://github.com/DeepGraphLearning/torchdrug).
+> We provide the dataset and checkpoints [here](https://portland-my.sharepoint.com/:f:/g/personal/shengysun4-c_my_cityu_edu_hk/EsF9Fzjj-XNNiCkREJQZudYBD0Ajeuu_1KtO638Dzucvhg?e=tYdFQS).
 
 ## Acknowledgment of Open-Source Code Contributions  
 
