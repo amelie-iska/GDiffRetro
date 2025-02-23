@@ -41,7 +41,7 @@ python stage1_to_result_dict.py --sample_times 300 --checkpoint model/reaction_c
 # python stage1_to_result_dict.py --sample_times 300 --checkpoint model/reaction_center_model_wo_class.pth
 ```
 ## Stage 2: Synthon Completion
-```shell
+```shell 
 cd stage2  
 python train_gdiffretro.py
 python train_size_gnn.py
