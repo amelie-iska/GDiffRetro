@@ -47,7 +47,7 @@ python train_gdiffretro.py
 python train_size_gnn.py
 bash run_get_results.sh
 ```
-> We provide the dataset and checkpoints [here](https://portland-my.sharepoint.com/:f:/g/personal/shengysun4-c_my_cityu_edu_hk/EsF9Fzjj-XNNiCkREJQZudYBD0Ajeuu_1KtO638Dzucvhg?e=Z8bdaU).
+> We provide the dataset and checkpoints [here](https://portland-my.sharepoint.com/:f:/g/personal/shengysun4-c_my_cityu_edu_hk/EoZzeoHajTFDpgKrnsdI7xsB5Hpls0u9kHDUKdqa1MrEnA?e=I2NmXZ).
 
 ## Acknowledgment of Open-Source Code Contributions  
 
