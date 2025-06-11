@@ -4,6 +4,7 @@
 [![preprint](https://img.shields.io/badge/Preprint'25-EE4C2C)](https://arxiv.org/abs/2501.08001)
 [![DASFAA](https://img.shields.io/badge/AAAI-2025-B57EDC)](https://aaai.org/conference/aaai/aaai-25/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+![](https://img.shields.io/badge/PRs-welcome-brightgreen) ![](https://img.shields.io/github/stars/sunshy-1/GDiffRetro?style=social) 
 
 This is the Pytorch implementation for our *AAAI'25* paper: [**GDiffRetro: Retrosynthesis Prediction with Dual Graph Enhanced Molecular Representation and Diffusion Generation**](https://arxiv.org/abs/2501.08001). 
 
